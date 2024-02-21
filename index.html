@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Results summary component" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <section class="result-section">
+        <p>Your Result</p>
+        <div class="result-number">
+          <p>76</p>
+          <p>of 100</p>
+        </div>
+        <p>Great</p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="description-section">
+        <p>Summary</p>
+        <div class="card-container">
+          <div class="card-wrapper">
+            <div class="icon-wrapper">
+              <img
+                src="img/icon-reaction.svg"
+                alt="Illustration of lightning associated with reaction results"
+              />
+              <p>Reaction</p>
+            </div>
+            <p id="final-number"><span>80</span> / 100</p>
+          </div>
+
+          <div class="card-wrapper2">
+            <div class="icon-wrapper">
+              <img
+                src="img/icon-memory.svg"
+                alt="Illustration of lightning associated with reaction results"
+              />
+              <p>Memory</p>
+            </div>
+            <p id="final-number"><span>92</span> / 100</p>
+          </div>
+
+          <div class="card-wrapper3">
+            <div class="icon-wrapper">
+              <img
+                src="img/icon-verbal.svg"
+                alt="Illustration of lightning associated with reaction results"
+              />
+              <p>Verbal</p>
+            </div>
+            <p id="final-number"><span>61</span> / 100</p>
+          </div>
+
+          <div class="card-wrapper4">
+            <div class="icon-wrapper">
+              <img
+                src="img/icon-visual.svg"
+                alt="Illustration of lightning associated with reaction results"
+              />
+              <p>Visual</p>
+            </div>
+            <p id="final-number"><span>72</span> / 100</p>
+          </div>
+        </div>
+        <button type="submit">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
